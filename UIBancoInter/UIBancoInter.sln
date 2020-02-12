@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIBancoInter.Android", "UIBancoInter\UIBancoInter.Android\UIBancoInter.Android.csproj", "{B8B59F17-E569-42FF-A6D2-A9FEC2B5453E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIBancoInter", "UIBancoInter\UIBancoInter\UIBancoInter.csproj", "{799506B3-539A-46DF-B29D-4B09A92FFC99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B59F17-E569-42FF-A6D2-A9FEC2B5453E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B59F17-E569-42FF-A6D2-A9FEC2B5453E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B59F17-E569-42FF-A6D2-A9FEC2B5453E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8B59F17-E569-42FF-A6D2-A9FEC2B5453E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B59F17-E569-42FF-A6D2-A9FEC2B5453E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B59F17-E569-42FF-A6D2-A9FEC2B5453E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{799506B3-539A-46DF-B29D-4B09A92FFC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799506B3-539A-46DF-B29D-4B09A92FFC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799506B3-539A-46DF-B29D-4B09A92FFC99}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{799506B3-539A-46DF-B29D-4B09A92FFC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799506B3-539A-46DF-B29D-4B09A92FFC99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799506B3-539A-46DF-B29D-4B09A92FFC99}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADF64F76-1F28-45F1-B543-446C61F4E8E0}
+	EndGlobalSection
+EndGlobal

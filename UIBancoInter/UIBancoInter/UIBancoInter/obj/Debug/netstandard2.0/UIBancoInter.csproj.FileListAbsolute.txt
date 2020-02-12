@@ -1,0 +1,12 @@
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\obj\Debug\netstandard2.0\UIBancoInter.csprojAssemblyReference.cache
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\obj\Debug\netstandard2.0\UIBancoInter.csproj.CoreCompileInputs.cache
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\obj\Debug\netstandard2.0\UIBancoInter.AssemblyInfoInputs.cache
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\obj\Debug\netstandard2.0\UIBancoInter.AssemblyInfo.cs
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\bin\Debug\netstandard2.0\UIBancoInter.deps.json
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\bin\Debug\netstandard2.0\UIBancoInter.dll
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\bin\Debug\netstandard2.0\UIBancoInter.pdb
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\obj\Debug\netstandard2.0\UIBancoInter.dll
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\obj\Debug\netstandard2.0\UIBancoInter.pdb
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\obj\Debug\netstandard2.0\XamlC.stamp

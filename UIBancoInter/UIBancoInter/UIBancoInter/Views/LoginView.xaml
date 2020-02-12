@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UIBancoInter.Views.LoginView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame HeightRequest="160" BackgroundColor="Orange">
+                <Label Text="inter" 
+                       TextColor="White"
+                       FontSize="38" 
+                       FontAttributes="Bold" 
+                       HorizontalTextAlignment="Center" 
+                       VerticalTextAlignment="Center" />
+            </Frame>
+
+            <Frame Margin="15,-35,15,0" 
+                   CornerRadius="10"
+                   BackgroundColor="LightGray">
+
+                <Label Text="MARCOS AURELIO CORREA" 
+                       TextColor="Black"
+                       FontSize="Body" />
+            </Frame>
+
+            <Frame Margin="15,10,15,0" 
+                   CornerRadius="10"
+                   BackgroundColor="LightGray">
+
+            </Frame>
+
+            <Frame Margin="15,10,15,0" 
+                   CornerRadius="10"
+                   BackgroundColor="LightGray">
+
+            </Frame>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
