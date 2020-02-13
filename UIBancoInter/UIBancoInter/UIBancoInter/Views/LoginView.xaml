@@ -4,7 +4,7 @@
              x:Class="UIBancoInter.Views.LoginView">
     <ContentPage.Content>
         <StackLayout>
-            <Frame HeightRequest="160" BackgroundColor="Orange">
+            <Frame HeightRequest="160" BackgroundColor="#f95b0b">
                 <Label Text="inter" 
                        TextColor="White"
                        FontSize="38" 
@@ -13,10 +13,10 @@
                        VerticalTextAlignment="Center" />
             </Frame>
 
-            <Frame HeightRequest="175" 
+            <Frame HeightRequest="175" Padding="0"
                    Margin="15,-35,15,0"
                    CornerRadius="10"
-                   BackgroundColor="LightGray">
+                   BackgroundColor="#f5f6fa">
 
                 <Grid>
                     <Grid.RowDefinitions>
@@ -24,45 +24,54 @@
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
 
-                    <FlexLayout Grid.Row="0" Direction="Row">
+                    <FlexLayout Grid.Row="0"
+                                Direction="Row" 
+                                AlignItems="Center" 
+                                Margin="20">
 
-                        <Frame BorderColor="Black"
+                        <!--<Frame HasShadow="False" 
                                CornerRadius="50"
                                HeightRequest="50"
                                WidthRequest="60"
                                HorizontalOptions="Center"
                                VerticalOptions="Center">
 
-                            <Image Source="outdoors.jpg"
-                               Aspect="AspectFill"
-                               Margin="-20"
-                               HeightRequest="100"
-                               WidthRequest="100" />
-                        </Frame>
+                            <Image Source="img_avatar.png"
+                                   Aspect="AspectFill"
+                                   Margin="-20"
+                                   HeightRequest="100"
+                                   WidthRequest="100" />
+                        </Frame>-->
+
+                        <Image Source="img_avatar.png"
+                               HeightRequest="120"
+                               WidthRequest="120" />
 
                         <StackLayout Margin="10,0,10,0" Spacing="0">
                             <Label Text="MARCOS AURELIO CORREA" 
-                               TextColor="Black"
-                               FontSize="18"
-                               LineBreakMode="TailTruncation" 
-                               MaxLines="2" 
-                               WidthRequest="180" />
+                                   TextColor="#4b4e5c"
+                                   FontSize="16"
+                                   FontAttributes="Bold"
+                                   LineBreakMode="TailTruncation" 
+                                   MaxLines="2" 
+                                   WidthRequest="180" />
 
                             <Label Text="123456-7" 
-                               TextColor="Gray"
-                               FontSize="18" />
+                                   TextColor="#9095ac"
+                                   FontSize="18" />
                         </StackLayout>
 
                         <Button Text="Alterar"
-                                FontSize="16"
+                                TextColor="#4b4e5c"
+                                FontSize="15"
                                 FontAttributes="Bold"
                                 Padding="0"
-                                WidthRequest="140" 
+                                WidthRequest="160" 
                                 HeightRequest="40" 
                                 BackgroundColor="Transparent" 
                                 CornerRadius="5" 
-                                BorderWidth="1" 
-                                BorderColor="Gray" />
+                                BorderWidth="2" 
+                                BorderColor="#e6e7f0" />
                     </FlexLayout>
 
                     <Button Grid.Row="1" 
@@ -71,22 +80,22 @@
                             FontSize="Medium"
                             FontAttributes="Bold"
                             CornerRadius="5"
-                            HeightRequest="60"
+                            HeightRequest="55"
                             VerticalOptions="Start"
-                            Margin="30,0,30,0"
-                            BackgroundColor="Orange" />
+                            Margin="40,0,40,0"
+                            BackgroundColor="#f95b0b" />
                 </Grid>
             </Frame>
 
             <Frame Margin="15,10,15,0" 
                    CornerRadius="10"
-                   BackgroundColor="LightGray">
+                   BackgroundColor="#f5f6fa">
 
             </Frame>
 
             <Frame Margin="15,10,15,0" 
                    CornerRadius="10"
-                   BackgroundColor="LightGray">
+                   BackgroundColor="#f5f6fa">
 
             </Frame>
         </StackLayout>        
