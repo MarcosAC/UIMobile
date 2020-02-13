@@ -105,6 +105,7 @@ C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter.Android\obj\Debug\81
 C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter.Android\obj\Debug\81\android\assets\Xamarin.Forms.HotReload.Reloader.pdb
 C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter.Android\obj\Debug\81\res\drawable\outdoors.jpg
 C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter\bin\Debug\netstandard2.0\UIBancoInter.dll
 C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter.Android\bin\Debug\UIBancoInter.dll.mdb
 C:\Projetos\UIMobile\UIBancoInter\UIBancoInter\UIBancoInter.Android\obj\Debug\81\linksrc\UIBancoInter.dll.mdb

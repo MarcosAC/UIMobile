@@ -13,13 +13,69 @@
                        VerticalTextAlignment="Center" />
             </Frame>
 
-            <Frame Margin="15,-35,15,0" 
+            <Frame HeightRequest="175" 
+                   Margin="15,-35,15,0"
                    CornerRadius="10"
                    BackgroundColor="LightGray">
 
-                <Label Text="MARCOS AURELIO CORREA" 
-                       TextColor="Black"
-                       FontSize="Body" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <FlexLayout Grid.Row="0" Direction="Row">
+
+                        <Frame BorderColor="Black"
+                               CornerRadius="50"
+                               HeightRequest="50"
+                               WidthRequest="60"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+
+                            <Image Source="outdoors.jpg"
+                               Aspect="AspectFill"
+                               Margin="-20"
+                               HeightRequest="100"
+                               WidthRequest="100" />
+                        </Frame>
+
+                        <StackLayout Margin="10,0,10,0" Spacing="0">
+                            <Label Text="MARCOS AURELIO CORREA" 
+                               TextColor="Black"
+                               FontSize="18"
+                               LineBreakMode="TailTruncation" 
+                               MaxLines="2" 
+                               WidthRequest="180" />
+
+                            <Label Text="123456-7" 
+                               TextColor="Gray"
+                               FontSize="18" />
+                        </StackLayout>
+
+                        <Button Text="Alterar"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                Padding="0"
+                                WidthRequest="140" 
+                                HeightRequest="40" 
+                                BackgroundColor="Transparent" 
+                                CornerRadius="5" 
+                                BorderWidth="1" 
+                                BorderColor="Gray" />
+                    </FlexLayout>
+
+                    <Button Grid.Row="1" 
+                            Text="Entrar"
+                            TextColor="White"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                            CornerRadius="5"
+                            HeightRequest="60"
+                            VerticalOptions="Start"
+                            Margin="30,0,30,0"
+                            BackgroundColor="Orange" />
+                </Grid>
             </Frame>
 
             <Frame Margin="15,10,15,0" 
@@ -33,7 +89,6 @@
                    BackgroundColor="LightGray">
 
             </Frame>
-        </StackLayout>
-        
+        </StackLayout>        
     </ContentPage.Content>
 </ContentPage>
