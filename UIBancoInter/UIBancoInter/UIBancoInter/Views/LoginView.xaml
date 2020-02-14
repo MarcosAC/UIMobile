@@ -4,17 +4,18 @@
              x:Class="UIBancoInter.Views.LoginView">
     <ContentPage.Content>
         <StackLayout>
-            <Frame HeightRequest="160" BackgroundColor="#f95b0b">
+            <Frame HeightRequest="100" BackgroundColor="#f95b0b">
                 <Label Text="inter" 
                        TextColor="White"
                        FontSize="38" 
                        FontAttributes="Bold" 
+                       Margin="0,0,0,20"
                        HorizontalTextAlignment="Center" 
                        VerticalTextAlignment="Center" />
             </Frame>
 
             <Frame HeightRequest="175" Padding="0"
-                   Margin="15,-35,15,0"
+                   Margin="15,-30,15,0"
                    CornerRadius="10"
                    BackgroundColor="#f5f6fa">
 
@@ -29,29 +30,34 @@
                                 AlignItems="Center" 
                                 Margin="20">
 
-                        <!--<Frame HasShadow="False" 
+                        <Frame HasShadow="False" 
+                               BackgroundColor="#e6e7f0"
                                CornerRadius="50"
-                               HeightRequest="50"
-                               WidthRequest="60"
+                               HeightRequest="20"
+                               WidthRequest="80"
                                HorizontalOptions="Center"
                                VerticalOptions="Center">
 
-                            <Image Source="img_avatar.png"
+                            <Label Text="MA"
+                                   TextColor="White"
+                                   FontSize="Medium"                                   
+                                   Margin="-8,-5,-7,0" />
+
+                            <!--<Image Source="img_avatar.png"
                                    Aspect="AspectFill"
                                    Margin="-20"
                                    HeightRequest="100"
-                                   WidthRequest="100" />
-                        </Frame>-->
+                                   WidthRequest="100" />-->
+                        </Frame>
 
-                        <Image Source="img_avatar.png"
+                        <!--<Image Source="img_avatar.png"
                                HeightRequest="120"
-                               WidthRequest="120" />
+                               WidthRequest="120" />-->
 
                         <StackLayout Margin="10,0,10,0" Spacing="0">
                             <Label Text="MARCOS AURELIO CORREA" 
                                    TextColor="#4b4e5c"
                                    FontSize="16"
-                                   FontAttributes="Bold"
                                    LineBreakMode="TailTruncation" 
                                    MaxLines="2" 
                                    WidthRequest="180" />
@@ -64,11 +70,10 @@
                         <Button Text="Alterar"
                                 TextColor="#4b4e5c"
                                 FontSize="15"
-                                FontAttributes="Bold"
                                 Padding="0"
                                 WidthRequest="160" 
-                                HeightRequest="40" 
-                                BackgroundColor="Transparent" 
+                                HeightRequest="30" 
+                                BackgroundColor="#f5f6fa" 
                                 CornerRadius="5" 
                                 BorderWidth="2" 
                                 BorderColor="#e6e7f0" />
@@ -78,11 +83,10 @@
                             Text="Entrar"
                             TextColor="White"
                             FontSize="Medium"
-                            FontAttributes="Bold"
                             CornerRadius="5"
-                            HeightRequest="55"
+                            HeightRequest="50"
                             VerticalOptions="Start"
-                            Margin="40,0,40,0"
+                            Margin="60,0,60,0"
                             BackgroundColor="#f95b0b" />
                 </Grid>
             </Frame>
