@@ -42,17 +42,7 @@
                                    TextColor="White"
                                    FontSize="Medium"                                   
                                    Margin="-8,-5,-7,0" />
-
-                            <!--<Image Source="img_avatar.png"
-                                   Aspect="AspectFill"
-                                   Margin="-20"
-                                   HeightRequest="100"
-                                   WidthRequest="100" />-->
                         </Frame>
-
-                        <!--<Image Source="img_avatar.png"
-                               HeightRequest="120"
-                               WidthRequest="120" />-->
 
                         <StackLayout Margin="10,0,10,0" Spacing="0">
                             <Label Text="MARCOS AURELIO CORREA" 
@@ -95,12 +85,105 @@
                    CornerRadius="10"
                    BackgroundColor="#f5f6fa">
 
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton Grid.Row="0" 
+                                 Grid.Column="0" 
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="CenterAndExpand"
+                                 Source="safe.png" />
+
+                    <FlexLayout Grid.Row="0"
+                                Grid.Column="1"
+                                Margin="80,0,0,0"
+                                Direction="Column">
+                        
+                        <ImageButton Source="btnSafe.png"
+                                     HeightRequest="60"
+                                     BackgroundColor="Transparent" />
+
+                        <Label Text="Gerar" 
+                               FontSize="Subtitle"
+                               TextColor="#4b4e5c"
+                               HorizontalTextAlignment="Center" />
+
+                    </FlexLayout>
+                </Grid>
+
             </Frame>
 
             <Frame Margin="15,10,15,0" 
                    CornerRadius="10"
                    BackgroundColor="#f5f6fa">
 
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton Grid.Row="0" 
+                                 Grid.Column="0" 
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="CenterAndExpand"
+                                 Source="btnInterpag.png" />
+
+                    <Grid Grid.Row="0"
+                          Grid.Column="1">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="30" />
+                        </Grid.RowDefinitions>
+
+                        <ImageButton Grid.Row="0"
+                                     Source="btnPagar.png"
+                                     HeightRequest="60"
+                                     VerticalOptions="End"
+                                     BackgroundColor="Transparent" />
+
+                        <Label Grid.Row="1"
+                               Text="Pagar" 
+                               FontSize="Subtitle"
+                               TextColor="#4b4e5c"
+                               HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Center" />
+                    </Grid>
+
+                    <Grid Grid.Row="0"
+                          Grid.Column="2">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="30" />
+                        </Grid.RowDefinitions>
+
+                        <ImageButton Grid.Row="0"
+                                     Source="btnReceber.png"
+                                     HeightRequest="60"
+                                     BackgroundColor="Transparent" />
+
+                        <Label Grid.Row="1"
+                               Text="Receber" 
+                               FontSize="Subtitle"
+                               TextColor="#4b4e5c"
+                               HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Center" />
+                    </Grid>
+                </Grid>
             </Frame>
         </StackLayout>        
     </ContentPage.Content>
